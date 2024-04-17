@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "SDNU ACM",
   description: "山东师范大学程序设计协会",
+  base: '/SAIF-Website/',
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
